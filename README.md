@@ -62,6 +62,7 @@ DataOps is a series of principles and practices to improve the quality and reduc
 Supported Data Sources: 
 |Data Source |Type |Range and Frequency |Request Limits|Raw Data|Preprocessed Data|
 |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |
+|IEX Cloud| US Securities| API-specific | API-specific| OHLCV | Prices&Indicators|
 |Yahoo! Finance| US Securities| Frequency-specific, 1min| 2,000/hour| OHLCV | Prices&Indicators|
 |CCXT| Cryptocurrency| API-specific, 1min| API-specific| OHLCV| Prices&Indicators|
 |WRDS.TAQ| US Securities| 2003-now, 1ms| 5 requests each time| Intraday Trades|Prices&Indicators|
